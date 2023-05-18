@@ -126,7 +126,7 @@ function Homepage({
         <div className="search-content">
           <img src="/logo_inv.svg" alt="logo" />
           <div className="title">
-            <h1>ABI Ninja</h1>
+            <h1>zkABI Ninja</h1>
           </div>
 
           <h3>Interact with any contract on Ethereum</h3>

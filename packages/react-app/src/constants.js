@@ -119,6 +119,26 @@ export const NETWORKS = {
     etherscanEndpoint: "https://api.gnosisscan.io",
     apiKey: ETHERSCAN_API_KEY,
   },
+  zkEVMTestnet: {
+    name: "zkEVM_Testnet",
+    color: "#0d8e74",
+    chainId: 1442,
+    price: 1,
+    blockExplorer: "https://testnet-zkevm.polygonscan.com/",
+    rpcUrl: "https://rpc.public.zkevm-test.net",
+    etherscanEndpoint: "https://api.gnosisscan.io",
+    apiKey: ETHERSCAN_API_KEY,
+  },
+  zkEVMTMainnet: {
+    name: "zkEVM_Mainnet",
+    color: "#0d8e74",
+    chainId: 1101,
+    price: 1,
+    blockExplorer: "https://zkevm.polygonscan.com/",
+    rpcUrl: "https://zkevm-rpc.com",
+    etherscanEndpoint: "https://api.gnosisscan.io",
+    apiKey: ETHERSCAN_API_KEY,
+  },
 };
 
 export const NETWORK = chainId => {

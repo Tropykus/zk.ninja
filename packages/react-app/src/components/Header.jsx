@@ -15,7 +15,7 @@ export default function Header({ link, title, setOpenMenu, openMenu, subTitle, .
         <Link to="/" className="logo-link">
           <img width={50} src={Logo} alt="logo" />
           <span className="logo-abi">
-            ABI <span className="logo-ninja">Ninja</span>
+            zkABI <span className="logo-ninja">Ninja</span>
           </span>
         </Link>
       </div>
