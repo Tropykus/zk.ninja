@@ -139,6 +139,26 @@ export const NETWORKS = {
     etherscanEndpoint: "https://api.gnosisscan.io",
     apiKey: ETHERSCAN_API_KEY,
   },
+  rskMainnet: {
+    name: "RSK_Mainnet",
+    color: "#0d8e74",
+    chainId: 30,
+    price: 1,
+    blockExplorer: "https://explorer.rsk.co/",
+    rpcUrl: "https://public-node.rsk.co",
+    etherscanEndpoint: "https://api.gnosisscan.io",
+    apiKey: ETHERSCAN_API_KEY,
+  },
+  rskTestnet: {
+    name: "RSK_Testnet",
+    color: "#0d8e74",
+    chainId: 31,
+    price: 1,
+    blockExplorer: "https://explorer.testnet.rsk.co/",
+    rpcUrl: "https://public-node.testnet.rsk.co",
+    etherscanEndpoint: "https://api.gnosisscan.io",
+    apiKey: ETHERSCAN_API_KEY,
+  },
 };
 
 export const NETWORK = chainId => {
