@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "zk-ninja": "zk-tropykus"
+  },
+  "targets": {
+    "zk-tropykus": {
+      "hosting": {
+        "zk-ninja": [
+          "zk-ninja"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}
